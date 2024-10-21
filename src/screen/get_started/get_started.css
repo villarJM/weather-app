@@ -1,0 +1,29 @@
+.bg-gradient-custom {
+  background-image: linear-gradient(
+    to bottom,
+    #ff000000 0%,
+    #ff00002a 20%,
+    #00000088 70%,
+    #000000a8 100%
+  );
+}
+
+.ellipse {
+  background: url("../../assets/image/Ellipse.svg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: contain;
+  background-position: top;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sun {
+  background: url("../../assets/image/sun.svg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: top;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}

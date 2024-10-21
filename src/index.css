@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Termina';
+    src: local("TerminaTest-Bold"), url(./assets/fonts/termina-test-cdnfonts/TerminaTest-Bold.otf) format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Epilogue';
+    src: local("Epilogue-Regular"), url(./assets/fonts/Epilogue/Epilogue-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+body {
+  @apply m-0 p-0;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+#root {
+  @apply h-screen w-screen flex flex-col box-border;
+}
